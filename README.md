@@ -1,21 +1,26 @@
-## DEVELOPED BY: YOHESH KUMAR R.M
-## REGISTER NO: 21222224118
-## DATE:
+# Ex.No: 07   AUTO REGRESSIVE MODEL
 
-# Ex.No: 07                                       AUTO REGRESSIVE MODEL
+## NAME: ASHOK KUMAR PREETHAM KUMAR
+## REGISTER NO: 212224040032
+## DATE:29/04/2025
 
 ## AIM:
+
 To Implement an Auto Regressive Model using Python
+
 ## ALGORITHM:
+
 1. Import necessary libraries
 2. Read the CSV file into a DataFrame
 3. Perform Augmented Dickey-Fuller test
 4. Split the data into training and testing sets.Fit an AutoRegressive (AR) model with 13 lags
 5. Plot Partial Autocorrelation Function (PACF) and Autocorrelation Function (ACF)
 6. Make predictions using the AR model.Compare the predictions with the test data
-7. Calculate Mean Squared Error (MSE).Plot the test data and predictions.
+7. Calculate Mean Squared Error (MSE).Plot the test data and predictions
+
 ## PROGRAM
-```python
+
+```
 # # Import necessary libraries
 import pandas as pd
 import numpy as np
@@ -81,6 +86,7 @@ plt.ylabel('Price')
 plt.legend()
 plt.show()  
 ```
+
 ## OUTPUT:
 
 ### GIVEN DATA
